@@ -72,3 +72,60 @@ p {
     color: #6fbf44;
     cursor: pointer;
 }
+
+@media (max-width: 800px) {
+    /* HEADER */
+    header {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 20px;
+    }
+
+    /* esconder links e deixar só o botão */
+    .link-menu {
+        display: none;
+    }
+
+    .button-sign-up {
+        display: block;
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    /* MAIN */
+    main {
+        display: flex;
+        flex-direction: column-reverse; /* coloca a imagem embaixo */
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    img {
+        width: 80%;
+        max-width: 400px;
+        margin: 40px 0 0 0;
+    }
+
+    div {
+        width: 100%;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 26px;
+        margin: 25px 0;
+    }
+
+    .link-learn-more {
+        font-size: 16px;
+    }
+}
